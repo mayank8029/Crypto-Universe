@@ -1,0 +1,41 @@
+
+.navContainer{
+    background-color: rgb(101, 101, 103);
+    min-height: 100vh;
+    min-width: 18vw;
+}
+
+.logo{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: 20vh;
+   min-width: 18vw;
+
+}
+
+.logo img{
+    
+height: 4rem;
+min-width: 4rem;
+    border-radius: 60px;
+    margin-top: 0.2rem;
+
+}
+
+.logoName{
+    max-width: 18vw;
+    color: cornsilk;
+    font-size: 2rem;
+    
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0.8rem;
+}
+
+.navLink{
+   
+    color: whitesmoke;
+}
