@@ -1,0 +1,39 @@
+.home-heading-container{
+   
+    display: flex;
+    margin-top: 2.2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    
+    
+    
+
+}
+.Title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.show-more {
+   
+    
+   
+   padding-bottom: 1.8rem;
+   
+}
+
+.home-title{
+
+text-align: center;
+margin-right: 0.5rem;
+}
+
+.blocks{
+    width: 100%;
+}
