@@ -1,4 +1,22 @@
 .crypto-image{
     height: 20px;
-    
+
+}
+
+.input-crypto-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.3rem;
+    margin-bottom: 0.4rem;
+
+    width: 100%;
+}
+
+.input-crypto{
+    min-height: 3.8vh;
+    min-width: 40%;
+    border: 2px solid black;
+    border-radius: 5px;
+
 }

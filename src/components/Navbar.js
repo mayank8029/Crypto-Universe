@@ -20,7 +20,7 @@ const Navbar = () => {
 </Menu.Item>
 
 <Menu.Item icon={<FundOutlined/>}>
-<Link to ="/cryptocurrencies">Cryptocurrencies</Link>
+<Link to ="cryptocurrencies">Cryptocurrencies</Link>
 </Menu.Item>
 
 <Menu.Item icon={<MoneyCollectOutlined/>}>
@@ -29,6 +29,10 @@ const Navbar = () => {
 
 <Menu.Item icon={<BulbOutlined/>}>
 <Link to ="/news">News</Link>
+</Menu.Item>
+
+<Menu.Item icon={<BulbOutlined/>}>
+<Link to ="/news" component={Typography.link}   / > News
 </Menu.Item>
 
 </Menu>

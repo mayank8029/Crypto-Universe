@@ -16,7 +16,7 @@ const { Title } = Typography;
 
 const Homepage = () => {
 
-const {data , isFetching} = useGetCryptosQuery();
+const {data , isFetching} = useGetCryptosQuery(10);
 const globalStats = data?.data?.stats;
 if (isFetching) return 'Loading....'
 console.log(data); 
@@ -47,7 +47,7 @@ console.log(data);
     <Title level={2} className="home-title">Top 10 Cryptocurrencies in the world </Title>
     <Title level={3} className="show-more show-more-manual"><Link to="/cryptocurrencies">Show More</Link></Title>
     </div>
-    <Cryptocurrencies/>
+    <Cryptocurrencies simplified/>
     </div>
    
 <div className='blocks'>

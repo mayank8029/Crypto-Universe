@@ -6,5 +6,6 @@ export default configureStore({
 
         [cryptoApi.reducerPath]:cryptoApi.reducer,
 
-    },
+    }, middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(cryptoApi.middleware),
 });
