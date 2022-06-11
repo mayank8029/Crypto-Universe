@@ -1,0 +1,28 @@
+.image-news{
+
+    height: 5rem;
+    width: 5rem;
+
+    
+        border-radius: 5px;
+}
+
+.news-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.provider-details{
+    display: flex;
+/* justify-content: center; */
+    padding: 2px;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+
+.provider-name{
+    margin-left: 0.4rem;
+}
+

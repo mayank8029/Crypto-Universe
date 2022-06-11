@@ -14,14 +14,25 @@ export const cryptoApi =createApi({
     baseQuery:fetchBaseQuery({baseUrl}),
     endpoints:(builder)=>({
          getCryptos: builder.query({
-             query: (count)=>createRequest(`/coins?limit=${count}`)
+             query: (count)=>createRequest(`/coins?limit=${count}`),
+
+             
+
+                getCryptoExchange: builder.query({
+                    query: (count)=>createRequest(`/coins`),
+             }),
+
+           
+   
          })
     })
 });
 
 export const {
-    useGetCryptosQuery,
+    useGetCryptosQuery, 
 }=cryptoApi; 
+
+
 // const options = {
 //     method: 'GET',
 //     url: 'https://coinranking1.p.rapidapi.com/coins',

@@ -56,21 +56,8 @@ console.log(data);
 <Title level={3} className="show-more show-more-manual"><Link to="/news">Show More</Link></Title>
 </div>
 
-</div>
- 
+<News simplified />
 
-<div className='blocks'>
-<div className='Title'>
-<Title level={2} className="home-title">Top 10 Cryptocurrencies in the world </Title>
-<Title level={3} className="show-more show-more-manual"><Link to="/cryptocurrencies">Show More</Link></Title>
-</div>
-</div>
-
-<div className='blocks'>
-<div className='Title'>
-<Title level={2} className="home-title">Top 10 Cryptocurrencies in the world </Title>
-<Title level={3} className="show-more show-more-manual"><Link to="/cryptocurrencies">Show More</Link></Title>
-</div>
 </div>
 
     </div>

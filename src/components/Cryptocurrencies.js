@@ -15,7 +15,7 @@ const Cryptocurrencies = ({simplified}) => {
 
  const [cryptoName,setCryptoName]= useState('');
 
-  const [cryptos,setCryptos]=useState('');
+  const [cryptos,setCryptos]=useState(cryptosList?.data?.coins);
 
   useEffect(()=>{
    
@@ -42,18 +42,20 @@ const Cryptocurrencies = ({simplified}) => {
     <Col xs={24} sm={12} lg={6}
      className="crypto-card" key={currency.id}>
     
-    <Link to={`/crypto/${currency.id}`}>
+    <a target='_blank' href={currency.coinrankingUrl}>
     <Card 
+    onClick={currency.coinrankingUrl}
     title={`${currency.rank}. ${currency.name}`}
     extra={<img className='crypto-image' src={currency.iconUrl} alt="img"/>}
     hoverable
+     
     >
-    <p>Price: {millify(currency.price)}$</p>
+    <p>Price: {millify(currency.price)}</p>
     <p>marketCap: {millify(currency.marketCap)}</p>
     <p>Price: {millify(currency.change)}%</p>
     </Card>
     
-    </Link>
+  </a>
 
     </Col>
   ))}
