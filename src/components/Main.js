@@ -15,20 +15,11 @@ const Main = () => {
     <div>
    <Layout>
    <Routes>
-   
    <Route exact path="/" element={<Homepage/>} />
- 
    <Route exact path="/cryptocurrencies"  element={<Cryptocurrencies/>} /> 
-   <Route exact path="/crypto/:coinId"  element={<CryptoDetail/> }/>
-   
    <Route exact path="/news" element={<News/>} /> 
-   
-   
    </Routes>
-   
    </Layout>
-    
-    
     </div>
   )
 }

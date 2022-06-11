@@ -1,9 +1,16 @@
+.home-container{
+    min-width:82vw ;
+    background-color: rgb(239, 231, 231);
+    margin: 0;
+    padding: 0%;
+}
+
 .home-heading-container{
    
     display: flex;
     margin-top: 2.2rem;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items:center;
     
     

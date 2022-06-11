@@ -1,7 +1,7 @@
 
 .navContainer{
     background-color: rgb(101, 101, 103);
-    min-height: 100%;
+    min-height: 100vh;
     min-width: 18vw;
 }
 

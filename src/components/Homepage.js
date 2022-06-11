@@ -7,7 +7,7 @@ import { Typography } from 'antd'
 import './Homepage.css'
 import Cryptocurrencies from './Cryptocurrencies'
 import News from './News'
-import CryptoDetails from './CryptoDetail'
+
 
 
 
@@ -22,7 +22,7 @@ if (isFetching) return 'Loading....'
 console.log(data); 
 
   return (
-    <div>
+    <div className='home-container'>
     <h1>Global Crypto Stats </h1>
 
     <Row>

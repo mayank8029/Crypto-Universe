@@ -13,10 +13,8 @@ const App = () => {
      <>
      <div className='app'>
      <Navbar/>
-     
      <div className='mainFooter'>
      <Main/>
-     
      <Footer/>
      </div>
      </div>
