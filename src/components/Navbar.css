@@ -86,7 +86,8 @@ min-width: 3rem;
         align-items: center;
         border: 2px solid black;
         border-radius: 8px;
-        margin-left: 38vw; 
+        margin-left: 36vw; 
+        margin-right :2px ;
         
     }
 
