@@ -16,3 +16,14 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media (max-width : 412px) {
+    .app{
+        display: flex ;
+        flex-direction: column;
+        max-width: 70vw;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+}

@@ -12,7 +12,7 @@ const Cryptocurrencies = ({simplified}) => {
 
 
   const {data:cryptosList , isFetching}= useGetCryptosQuery(count);
-
+// useGetcryptoQuerry mai count  dekfine karna padega
  const [cryptoName,setCryptoName]= useState('');
 
   const [cryptos,setCryptos]=useState(cryptosList?.data?.coins);

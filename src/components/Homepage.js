@@ -8,7 +8,7 @@ import './Homepage.css'
 import Cryptocurrencies from './Cryptocurrencies'
 import News from './News'
 
-
+// millify convert the numbers in the more readable formater
 
 
 const { Title } = Typography;
@@ -18,6 +18,7 @@ const Homepage = () => {
 
 const {data , isFetching} = useGetCryptosQuery(10);
 const globalStats = data?.data?.stats;
+
 if (isFetching) return 'Loading....'
 console.log(data); 
 

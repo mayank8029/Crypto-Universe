@@ -39,3 +39,67 @@ min-width: 4rem;
    
     color: whitesmoke;
 }
+
+.hamburger-menu{
+    display: none;
+}
+
+@media(max-width:412px){
+    .navContainer{
+        background-color: rgb(101, 101, 103);
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 100vw;
+        
+    }
+    .logo{
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-between;
+        min-height: 5vh;
+    }
+
+    .logo img{
+
+        height: 3rem;
+min-width: 3rem;
+    border-radius: 70px;
+    margin-top: 0.2rem;
+    }
+    
+
+    .logoName{
+        margin-right: 1rem;
+    }
+
+
+    .hamburger-menu{
+        display: flex;
+        background-color: black;
+        color: white;
+        width: 2.2rem;
+        height: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        margin-left: 38vw; 
+        
+    }
+
+    .navLink{
+        
+        display: none;
+    
+    }
+
+    .showNavLink{
+        
+    }
+
+
+
+}

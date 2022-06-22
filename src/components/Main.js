@@ -25,3 +25,8 @@ const Main = () => {
 }
 
 export default Main
+
+// in this jpage we had defined kis path par kya folder open karna hai 
+// home page kab open karna hai ?
+// crypto currnecies wwala kab open karna hai 
+// news wala kab open karna hai 

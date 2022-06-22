@@ -1,7 +1,7 @@
 
 
 .footer{
-    /* width: 100%; */
+   min-width: 100vw;
     display: flex;
     flex-direction: column;
     background-color: rgb(194, 193, 193);

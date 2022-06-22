@@ -44,3 +44,16 @@ margin-right: 0.5rem;
 .blocks{
     width: 100%;
 }
+
+@media (max-width:412px) {
+    .home-container{
+        min-width: 100vw;
+        background-color: rgb(230, 230, 230);
+        margin: 0px;
+        padding:0px
+    }
+
+    .show-more{
+        display: none;
+    }
+}
